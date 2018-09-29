@@ -111,11 +111,23 @@ body {
 @media (max-width: 560px) {
     #container {
         grid-template-columns: 1fr;
-        padding: 20px;
+        padding-left: 20px;
     }
 
     #container .card .imgContainer img {
-        width: 80vw;
+        width: 50vw;
+        padding-top: 20px;
+        padding-left: 40px;
+
+    }
+
+    #container .card  {
+        width: 60vw;
+        height: 430px;
+    }
+    
+    /* #container .card .imgContainer img {
+        width: 50vw;
     }
     #container .card .content {
         position: absolute;
@@ -140,4 +152,6 @@ body {
     }
     #container .card:hover {
         box-shadow: 0 20px 20px rgba(0,0,0,0);
-    }
+        width: 80vw;
+        height: 20%;
+    } */
