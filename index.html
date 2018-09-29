@@ -4,9 +4,85 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <title>Tilt JS Hover Effect</title>
 </head>
-<body>
+<body data-spy="scroll" data-target="#menu">
+    <!-- Navigation -->
+<nav class="navbar navbar-dark bg-dark navbar-expand-md fixed-top">
+	<div class="container-fluid">
+		<a href="https://gljmedia.com" class="navbar-brand"><img src="https://gljmedia.com/GLJMediaLogo_White.png" alt="logo"></a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="menu">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-link" href="#">HOME</li>
+				<li class="nav-link" href="#about">About</li>
+				<li class="nav-link" href="#portfolio">Portfolio</li>
+				<li class="nav-link" href="#testimonials">Testimonials</li>
+				<li class="nav-link" href="#contact">Contact</li>
+				
+			</ul>
+		</div>
+	</div>
+</nav>
+
+    <!--  Content  -->
+    <div id="container">
+        <div class="card">
+            <div class="imgContainer">
+                <img src="btc.png" alt="bitcoin logo">
+            </div>
+            <div class="content">
+                <h2>BITCOIN <span>(BTC)</span></h2>
+                <p>Rank: 1</p>
+                <p><h4>Market Cap: $113,898,603,660</h4></p>
+                <ul>
+                    <li><a href="https://coinmarketcap.com/"><i class="fa fa-cart-plus" aria-hidden="true"></i></a></li>
+                    <li><a href="https://coinmarketcap.com/"><i class="fa fa-credit-card" aria-hidden="true"></i></a></li>
+                    <li><a href="https://coinmarketcap.com/"><i class="fa fa-bell" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="card">
+            <div class="imgContainer">
+                <img src="xrp.jpg" alt="xrp logo">
+            </div>
+            <div class="content">
+                <h2>RIPPLE <span>(XRP)</span></h2>
+                <p>Rank: 3</p>
+                <p><h4>Market Cap: $22,738,903,071</h4></p>
+                <ul>
+                    <li><a href="https://coinmarketcap.com/"><i class="fa fa-cart-plus" aria-hidden="true"></i></a></li>
+                    <li><a href="https://coinmarketcap.com/"><i class="fa fa-credit-card" aria-hidden="true"></i></a></li>
+                    <li><a href="https://coinmarketcap.com/"><i class="fa fa-bell" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="card">
+            <div class="imgContainer">
+                <img src="trx.png" alt="tron logo">
+            </div>
+            <div class="content">
+                <h2>TRON <span>(TRX)</span></h2>
+                <p>Rank: 13</p>
+                <p><h4>Market Cap: $1,455,553,952</h4></p>
+                <ul>
+                    <li><a href="https://coinmarketcap.com/"><i class="fa fa-cart-plus" aria-hidden="true"></i></a></li>
+                    <li><a href="https://coinmarketcap.com/"><i class="fa fa-credit-card" aria-hidden="true"></i></a></li>
+                    <li><a href="https://coinmarketcap.com/"><i class="fa fa-bell" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
     
+
+<!--- Script Source Files -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
 </body>
-</html>
+</html>    
